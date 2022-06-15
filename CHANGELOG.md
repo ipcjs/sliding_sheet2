@@ -1,3 +1,6 @@
+## 0.5.3
+* Migrate to Flutter 3
+
 ## 0.5.2
 * **Added** `customBuilder` for infinite lists
 
