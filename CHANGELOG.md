@@ -1,3 +1,6 @@
+## 0.5.4
+* Compatible with Flutter 2
+
 ## 0.5.3
 * Migrate to Flutter 3
 
