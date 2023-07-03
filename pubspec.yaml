@@ -1,6 +1,6 @@
 name: sliding_sheet2
 description: A widget that can be dragged and scrolled in a single gesture and snapped to a list of extents.
-version: 2.0.0
+version: 2.0.1
 homepage: https://github.com/ipcjs/sliding_sheet2
 
 environment:

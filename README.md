@@ -7,9 +7,7 @@
 
 A widget that can be dragged and scrolled in a single gesture and snapped to a list of extents.
 
-<a href="https://github.com/ipcjs/sliding_sheet2/blob/master/example/lib/main.dart">
-  <img width="205px" alt="Example of a SlidingSheet" src="assets/example.gif"/>
-</a>
+[![Example of a SlidingSheet](assets/example.gif)](https://github.com/ipcjs/sliding_sheet2/blob/master/example/lib/main.dart)
 
 Click [here](https://github.com/ipcjs/sliding_sheet2/blob/master/example/lib/main.dart) to view the full example.
 
@@ -78,7 +76,7 @@ Widget build(BuildContext context) {
 ```
 
 #### Result:
-<img width="205px" alt="Example" src="assets/usage_example.gif" href/>
+![Example](assets/usage_example.gif)
 
 ### As a BottomSheetDialog
 
@@ -124,7 +122,7 @@ void showAsBottomSheet() async {
 }
 ```
 #### Result:
-<img width="205px" alt="Example" src="assets/usage_example_bottom_sheet.gif"/>
+![Example](assets/usage_example_bottom_sheet.gif)
 
 ### Snapping
 
@@ -139,9 +137,11 @@ positioning | Can be set to one of these three values: `SnapPositioning.relative
 onSnap | A callback function that gets invoked when the `SlidingSheet` snaps to an extent.
 
 <p float="left">
-  <img width="205px" alt="SnapPositioning.relativeToAvailableSpace with a snap of 0.5" src="assets/example_snapping_relativeToAvailableSpace.png"/>
-  <img width="205px" alt="SnapPositioning.relativeToSheetHeight with a snap of 0.5" src="assets/example_snapping_relativeToSheetHeight.png"/>
-  <img width="205px" alt="SnapPositioning.pixelOffset with a snap of 100" src="assets/example_snapping_pixelOffset.png"/>
+
+![SnapPositioning.relativeToAvailableSpace with a snap of 0.5](assets/example_snapping_relativeToAvailableSpace.png)
+![SnapPositioning.relativeToSheetHeight with a snap of 0.5](assets/example_snapping_relativeToSheetHeight.png)
+![SnapPositioning.pixelOffset with a snap of 100](assets/example_snapping_pixelOffset.png)
+
 </p>
 
 There are also some prebuild snaps you can facilitate to snap for example to headers or footers as shown in the example.
@@ -233,7 +233,7 @@ Widget build(BuildContext context) {
 }
 ```
 #### Result:
-<img width="205px" alt="Simple header/footer example" src="assets/example_header_footer.gif"/>
+![Simple header/footer example](assets/example_header_footer.gif)
 
 ### ListViews and Columns
 
@@ -263,4 +263,4 @@ The example for instance decreases the corner radius of the `SlidingSheet` as it
 
 Because these are common Material behaviors, `SlidingSheet` supports those out of the box, which can be achieved by setting the `avoidStatusBar` field to `true`, `cornerRadiusOnFullscreen` to `0` and `liftOnScrollHeaderElevation` to the elevation.
 
-<img width="205px" alt="Example of Material Effects" src="assets/example_reflecting_changes.gif"/>
+![Example of Material Effects](assets/example_reflecting_changes.gif)

@@ -1,3 +1,6 @@
+## 2.0.1
+* Update document
+
 ## 2.0.0
 * Modify the package name to `sliding_sheet2`
 
