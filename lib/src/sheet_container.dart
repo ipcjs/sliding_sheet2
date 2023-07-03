@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'package:sliding_sheet/src/sheet_listener_builder.dart';
-
 import 'sheet.dart';
+import 'sheet_listener_builder.dart';
 
 // ignore_for_file: public_member_api_docs
 

@@ -1,3 +1,5 @@
+## 2.0.0
+* Modify the package name to `sliding_sheet2`
 
 ## 0.6.0
 * Migrate to Flutter 3.10

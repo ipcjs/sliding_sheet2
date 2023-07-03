@@ -144,13 +144,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.99"
-  sliding_sheet:
+  sliding_sheet2:
     dependency: "direct main"
     description:
       path: ".."
       relative: true
     source: path
-    version: "0.5.4"
+    version: "2.0.0"
   source_span:
     dependency: transitive
     description:

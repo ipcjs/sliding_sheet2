@@ -1,31 +1,31 @@
 # Sliding Sheet
 
-[![pub package](https://img.shields.io/pub/v/sliding_sheet.svg)](https://pub.dartlang.org/packages/sliding_sheet)
-[![GitHub Stars](https://img.shields.io/github/stars/bxqm/sliding_sheet.svg?logo=github)](https://github.com/bxqm/sliding_sheet)
+[![pub package](https://img.shields.io/pub/v/sliding_sheet2.svg)](https://pub.dartlang.org/packages/sliding_sheet2)
+[![GitHub Stars](https://img.shields.io/github/stars/ipcjs/sliding_sheet2.svg?logo=github)](https://github.com/ipcjs/sliding_sheet2)
 
-**The repository is just a mirror of [sliding_sheet](https://pub.dartlang.org/packages/sliding_sheet).**
+**The package is a fork of [sliding_sheet](https://pub.dartlang.org/packages/sliding_sheet).**
 
 A widget that can be dragged and scrolled in a single gesture and snapped to a list of extents.
 
-<a href="https://github.com/bxqm/sliding_sheet/blob/master/example/lib/main.dart">
+<a href="https://github.com/ipcjs/sliding_sheet2/blob/master/example/lib/main.dart">
   <img width="205px" alt="Example of a SlidingSheet" src="assets/example.gif"/>
 </a>
 
-Click [here](https://github.com/bxqm/sliding_sheet/blob/master/example/lib/main.dart) to view the full example.
+Click [here](https://github.com/ipcjs/sliding_sheet2/blob/master/example/lib/main.dart) to view the full example.
 
 ## Installing
 
 Add it to your `pubspec.yaml` file:
 ```yaml
 dependencies:
-  sliding_sheet: ^0.5.2
+  sliding_sheet: ^2.0.0
 ```
 Install packages from the command line
 ```
 flutter packages get
 ```
 
-If you like this package, consider supporting it by giving it a star on [GitHub](https://github.com/bxqm/sliding_sheet) and a like on [pub.dev](https://pub.dev/packages/sliding_sheet) :heart:
+If you like this package, consider supporting it by giving it a star on [GitHub](https://github.com/ipcjs/sliding_sheet2) and a like on [pub.dev](https://pub.dev/packages/sliding_sheet2) :heart:
 
 ## Usage
 
