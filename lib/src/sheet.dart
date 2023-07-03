@@ -2,10 +2,8 @@ import 'dart:async';
 import 'dart:math' as math;
 import 'dart:ui';
 
-import 'package:flutter/foundation.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 
 import 'sheet_container.dart';
 import 'specs.dart';
@@ -1027,7 +1025,8 @@ class _SlidingSheetState extends State<SlidingSheet>
     if (scrollSpec.overscroll) {
       scrollView = GlowingOverscrollIndicator(
         axisDirection: AxisDirection.down,
-        color: scrollSpec.overscrollColor ?? Theme.of(context).accentColor,
+        color: scrollSpec.overscrollColor ??
+            Theme.of(context).colorScheme.secondary,
         child: scrollView,
       );
     }

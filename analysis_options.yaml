@@ -2,10 +2,10 @@
 # Lint rules to be used for apps without developer facing API. i.e. command line tools and Flutter applications
 ##
 analyzer:
-  strong-mode:
+  language:
     # Will become the default once non-nullable types land
     # https://github.com/dart-lang/sdk/issues/31410#issuecomment-510683629
-    implicit-casts: true
+    strict-casts: true
   errors:
     # treat missing required parameters as a warning (not a hint)
     missing_required_param: warning
@@ -36,12 +36,6 @@ linter:
     # pedantic: disabled
     # http://dart-lang.github.io/linter/lints/always_declare_return_types.html
     # - always_put_required_named_parameters_first
-
-    # All non nullable named parameters should be and annotated with @required.
-    # This allows API consumers to get warnings via lint rather than a crash a runtime.
-    # Might become obsolete with Non-Nullable types
-    # http://dart-lang.github.io/linter/lints/always_require_non_null_named_parameters.html
-    - always_require_non_null_named_parameters
 
     # Since dart 2.0 dart is a sound language, specifying types is not required anymore.
     # `var foo = 10;` is enough information for the compiler to make foo a int.
@@ -165,11 +159,6 @@ linter:
     # pedantic: disabled
     # https://dart-lang.github.io/linter/lints/avoid_returning_null.html
     # - avoid_returning_null
-
-    # Don't use `Future?`, therefore never return null instead of a Future.
-    # Will become obsolete one Non-Nullable types land
-    # https://dart-lang.github.io/linter/lints/avoid_returning_null_for_future.html
-    - avoid_returning_null_for_future
 
     # Use empty returns, don't show off with you knowledge about dart internals.
     # https://dart-lang.github.io/linter/lints/avoid_returning_null_for_void.html
@@ -326,13 +315,6 @@ linter:
     # If you need access to some internal code, create an issue
     # https://dart-lang.github.io/linter/lints/implementation_imports.html
     - implementation_imports
-
-    # Although there are some false positives, this lint generally catches unnecessary checks
-    # - https://github.com/dart-lang/linter/issues/811
-    #
-    # pedantic: disabled
-    # https://dart-lang.github.io/linter/lints/invariant_booleans.html
-    - invariant_booleans
 
     # Type check for Iterable<T>.contains(other) where other is! T
     # otherwise contains will always report false. Those errors are usually very hard to catch.
@@ -504,11 +486,6 @@ linter:
     # pedantic: disabled
     # https://dart-lang.github.io/linter/lints/prefer_double_quotes.html
     # - prefer_double_quotes
-
-    # Prevent confusion with call-side when using named parameters
-    # pedantic: enabled
-    # https://dart-lang.github.io/linter/lints/prefer_equal_for_default_values.html
-    - prefer_equal_for_default_values
 
     # Single line methods + implementation makes it hard to write comments for that line.
     # Dense code isn't necessarily better code.
